@@ -540,15 +540,6 @@
   resolved "https://npm.coloseo.online/@uni-vue%2fThemeProvider/-/ThemeProvider-0.0.37.tgz#0147934e0e2b86577b01dafb9ef58800be2d3468"
   integrity sha512-LDVgmdcb4KxPC37L6S9dZAecZcX1tbWtK6f/9J2JOmPlIy/YWsXpXCkXz+AznCii7YeIoR0E69uB6I1Q3Ro+vA==
 
-"@uni-vue/badge@^0.0.37":
-  version "0.0.37"
-  resolved "https://npm.coloseo.online/@uni-vue%2fbadge/-/badge-0.0.37.tgz#02044495bc593afbbc4751e5150d4805856f9ff0"
-  integrity sha512-ExQOIGt68dCJ1YoAMkpFjLYbdWJQh7MzeKUDmTH/9Mm7Ks01+QBj75MYsPp9r3OHOb06MOUj586kx7earaLfKw==
-  dependencies:
-    "@uni-vue/style" "^0.0.37"
-    "@uni-vue/utils" "^0.0.37"
-    classnames "^2.3.1"
-
 "@uni-vue/button@^0.0.37":
   version "0.0.37"
   resolved "https://npm.coloseo.online/@uni-vue%2fbutton/-/button-0.0.37.tgz#7f264b0e8a4fced5c6912a4bb27158b1fb4d88e7"
@@ -611,15 +602,6 @@
     "@uni-vue/tooltip" "^0.0.37"
     "@uni-vue/utils" "^0.0.37"
     classnames "^2.3.1"
-
-"@uni-vue/message@^0.0.38":
-  version "0.0.38"
-  resolved "https://npm.coloseo.online/@uni-vue%2fmessage/-/message-0.0.38.tgz#20246f46e35f9e5f9eafab97f6e345022208ec28"
-  integrity sha512-fLGX7q608ZzikpufwcMcSLuPF/7P4uxBSl8c0t/E2kWcH0nJHMcUr1g9werukyyT4SHQdxGSNTQQkHzgbC0fNA==
-  dependencies:
-    "@uni-vue/icon" "^0.0.37"
-    "@uni-vue/style" "^0.0.37"
-    "@uni-vue/utils" "^0.0.37"
 
 "@uni-vue/popover@^0.0.37":
   version "0.0.37"
@@ -1334,11 +1316,6 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
-
-highlight.js@^11.8.0:
-  version "11.8.0"
-  resolved "https://npm.coloseo.online/highlight.js/-/highlight.js-11.8.0.tgz#966518ea83257bae2e7c9a48596231856555bb65"
-  integrity sha512-MedQhoqVdr0U6SSnWPzfiadUcDHfN/Wzq25AkXiQv9oiOO/sG0S7XkvpFIqWBl9Yq1UYyYOOVORs5UW2XlPyzg==
 
 html-tags@^2.0.0:
   version "2.0.0"
