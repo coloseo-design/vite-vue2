@@ -1,0 +1,17 @@
+body {
+  background: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+  body {
+    zoom: 0.8;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+  body {
+    zoom: 0.66;
+  }
+}
