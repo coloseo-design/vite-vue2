@@ -2,7 +2,7 @@
   <div class="page">
     <PageHeader />
     <div class="container">
-      <Menu :items="navs" v-model="selectKey" :openValues="openKeys" @select="handleSelect" @collapsed="onCollapsed"
+      <ProMenu :items="navs" v-model="selectKey" :openValues="openKeys" @select="handleSelect" @collapsed="onCollapsed"
         style="position: absolute; left: 0px; top: 0px; bottom: 0px;" />
       <div class="right-container"
         :style="{ position: 'absolute', left: collapsed ? 0 : '206px', height: '100%', width: collapsed ? '100%' : 'calc(100% - 206px)' }">
@@ -28,18 +28,18 @@ import PageHeader from './header.vue';
 export default defineComponent({
   data() {
     return {
-      openKeys: ['快速使用'],
-      selectKey: '快速使用',
+      openKeys: ['富文本'],
+      selectKey: '富文本',
       navs: [
         {
           icon: this.$createElement(Icon, { props: { name: 'file-editing-line' } }),
-          title: '快速使用',
-          value: '快速使用',
+          title: '富文本',
+          value: '富文本',
         },
         {
           icon: this.$createElement(Icon, { attrs: { name: 'chart-ring-line' } }),
-          title: '色彩',
-          value: '色彩',
+          title: '表格',
+          value: '表格',
         },
         {
           icon: this.$createElement(Icon, { props: { name: 'app-line' } }),
@@ -103,12 +103,12 @@ export default defineComponent({
         '业务类': '/business',
         '宣传类': '/publicity',
         '综合类': '/comprehensive',
-        '快速使用': '/',
+        '富文本': '/',
         '色彩': '/colors',
         '内嵌式导航': '/inline',
         '展开式导航': '/vertical',
         '顶部导航': '/horizontal',
-        '富文本编辑': '/editor',
+        '表格': '/table',
       };
       this.$router.push(routeMapping[value]);
     },

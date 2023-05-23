@@ -1,5 +1,5 @@
 <template>
-  <Header bordered placeholder="输入内容查询" title="中国联通电子会议系统管理平台" href="#" :right-nav-items="menus"
+  <ProHeader bordered placeholder="输入内容查询" title="中国联通电子会议系统管理平台" href="#" :right-nav-items="menus"
     @rightNavItemClick="onRightNavItemClick">
     <template #renderMenu="menu">
       <Dropdown v-if="menu.key !== '自定义'" :trigger="['click']" @visibleChange="handleChange">
@@ -44,7 +44,7 @@
         <div class="title">{{ menu.title }}</div>
       </div>
     </template>
-  </Header>
+  </ProHeader>
 </template>
 <script>
 import { defineComponent } from 'vue';
